@@ -1,12 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Title from './Title';
+import POPOSList from './POPOSList';
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+      <Title />
+      <img src={logo} className="App-logo" alt="logo" />
+      
+      <POPOSList />
+
+
+
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,8 +25,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-      </header>
+        </a> */}
     </div>
   );
 }
